@@ -9,7 +9,7 @@ export default function Details() {
 	const [job, setJob] = useState(null);
 
 	const getDetailData = async () => {
-		let url = `http://localhost:3001/jobs/${id}`;
+		let url = `https://my-json-server.typicode.com/Yogitravel/it-viec/jobs/${id}`;
 		let data = await fetch(url);
 		let result = await data.json();
 		setJob(result);

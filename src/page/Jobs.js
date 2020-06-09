@@ -5,7 +5,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 export default function Jobs() {
 	const getData = async () => {
-		let url = `http://localhost:3001/jobs`;
+		let url = `https://my-json-server.typicode.com/Yogitravel/it-viec/jobs`;
 		let data = await fetch(url);
 		let result = await data.json();
 		setJobs(result);
