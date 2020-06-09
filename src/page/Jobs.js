@@ -8,6 +8,7 @@ export default function Jobs() {
 		let url = `https://my-json-server.typicode.com/Yogitravel/it-viec/jobs`;
 		let data = await fetch(url);
 		let result = await data.json();
+		console.log(result);
 		setJobs(result);
 	};
 
