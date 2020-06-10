@@ -10,7 +10,7 @@ export default function JobCard({ job }) {
 		history.push(`/jobs/${job.id}`);
 	}
 	return (
-		<div className="job-content" onClick={() => jobSelect()}>
+		<div className="job-content " onClick={() => jobSelect()}>
 			<Row>
 				<Col>
 					<div className="jobcard-logo">

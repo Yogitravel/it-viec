@@ -26,12 +26,7 @@
 
 .job-content {
 	border: solid 1px rgb(245, 181, 135);
-	margin-top: 50px;
-	margin-bottom: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	max-width: 800px !important;
 }
 .badge-style {
 	margin-left: 10px;
@@ -43,9 +38,21 @@
 	color: aliceblue;
 }
 .Details-box {
-	border: solid 1px rgb(245, 181, 135);
 	margin-top: 50px;
 	margin-bottom: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.Login-email {
+	color: white;
+	margin-left: 100px;
+}
+.login-page {
+	margin-top: 50px;
 	margin-left: 300px;
 	margin-right: 300px;
 	padding-top: 20px;
